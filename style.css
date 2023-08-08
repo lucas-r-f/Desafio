@@ -86,6 +86,7 @@ header{
 .header-h2{
     font-weight: 400;
     font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 254, 255);
     text-decoration: none;
     font-size: 10px;
@@ -97,6 +98,7 @@ header{
 .header-p{
     font-weight: 400;
     font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 254, 255);
     text-decoration: none;
     font-size: 8px;
@@ -266,3 +268,302 @@ footer{
     justify-content: center;
     background-color: orangered;
 }
+
+@media screen and (min-width: 375px) {
+    .header-img1 {
+        width: 34%;
+        height: 17%;
+    }
+    .header-img3 {
+        width: 6%;
+        height: 39px;
+        padding-top: 30%;
+    }
+    .header-img4 {
+        width: 31%;
+        height: 18px;
+    }
+    .header-img5 {
+        padding-top: 10%;
+    }
+    .container {
+        padding-top: 56px;
+    }
+    .container-text-top p {
+        width: 85%;
+    }
+    .container-img-mid-r img {
+        width: 97%;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .header-img1 {
+        width: 32%;
+    }
+    .header-img2 {
+        width: 28%;
+        height: 45px;
+    }
+    .header-img3 {
+        padding-left: 33%;
+        padding-top: 35%;
+    }
+    .header-img5 {
+        padding-top: 17%;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .header-img1 {
+        width: 30%;
+        height: 16%;
+    }
+    .header-img3 {
+        padding-top: 35.5%;
+    }
+    .header-img5 {
+        width: 26%;
+        height: 120px;
+        padding-top: 17%;
+    }
+    .header-img6 {
+        width: 16%;
+        padding-top: 7%;
+        height: 17px;
+    }
+    .container-text-top p {
+        width: 80%;
+    }
+    .container-img-mid-r img {
+        width: 95%;
+        height: 116px;
+    }
+    .container-text-mid-r h1 {
+        width: 90%;
+    }
+    
+} 
+
+@media screen and (min-width: 540px) {
+    header {
+        height: 14vh;
+    }
+    .header-img1 {
+        width: 24.8%;
+        height: 17%;
+    }
+    .header-img2 {
+        width: 25%;
+        height: 41px;
+        padding-left: 20px;
+    }
+    .header-img3 {
+        padding-top: 20.5%;
+        padding-left: 29%;
+        width: 5.5%;
+    }
+    .header-img4 {
+        width: 26%;
+        height: 18px;
+        padding-top: 7%;
+        padding-right: 0%;
+    }   
+    .header-img5 {
+        width: 20%;
+        height: 100px;
+        padding-top: 8%;
+    }
+    .container {
+        padding-top: 60px;
+    }
+    .container-img-top img {
+        height: 170px;
+    }
+    .container-mid {
+        padding-top: 15px;
+    }
+    .container-img-mid-r{
+        height: 149px
+    }
+    .container-img-mid-r img {
+        width: 74%;
+        padding-left: 33px;
+        height: 136px;
+        padding-top: 5px;
+    }
+    .container-text-mid-r{
+        padding-left: 32px;
+    }
+    .container-text-mid-r h1{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .header-img1 {
+        width: 19.4%;
+        height: 14%;
+    }
+    .header-img2 {
+        width: 22%;
+        height: 46px;
+    }
+    .header-img3 {
+        padding-top: 20.5%;
+        padding-left: 26%;
+        width: 4.5%;
+        height: 50px;
+    }
+    .header-img5 {
+        width: 19%;
+        height: 130px;
+        padding-top: 9%;
+        padding-left: 8%;
+    }
+    .header-img6 {
+        width: 12%;
+        padding-top: 4%;
+        height: 20px;
+    }
+    .header-h2 {
+        padding-right: 0%;
+        padding-left: 19%;
+        width: 59%;
+    }
+    .container {
+        padding-top: 84px;
+    }
+    .container-img-top img {
+        width: 90%;
+        padding-left: 36px;
+        height: 240px;
+    }
+    .container-text-top {
+        padding-left: 34px;
+    }
+    .container-text-top h1 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .container-text-top p {
+        padding-top: 7px;
+        font-size: 11px;
+    }
+    .container-text-top h3 {
+        font-size: 8px;
+    }
+    .container-text-top h3 {
+        padding-top: 10px;
+    }
+    .container-mid-l {
+        padding-left: 7%;
+    }
+    .container-img-mid-l {
+    width: 93%;
+    }
+    .container-text-mid-l h1 {
+        font-size: 12px;
+    }
+    .container-text-mid-l h3 {
+        font-size: 10px;
+    }
+    .container-img-mid-r {
+        height: 185px;
+    }
+    .container-img-mid-r img {
+        width: 60%;
+        padding-left: 120px;
+        height: 176px;
+        padding-top: 0px;
+    }
+    .container-text-mid-r {
+        padding-left: 120px;
+    }
+    .container-text-mid-r h1 {
+        font-size: 12px;
+    }
+    .container-text-mid-r h3 {
+        font-size: 10px;
+    }
+    .img-banner img{
+        height: 65px;
+    }
+}
+@media screen and (min-width: 820px){
+    .header-img1 {
+        width: 17.8%;
+    }
+    .header-img2 {
+        height: 57px;
+    }
+    .header-img3 {
+        padding-top: 21.5%;
+        padding-left: 25%;
+        width: 5.5%;
+        height: 63px;
+    }
+    .header-img4 {
+        width: 30%;
+        height: 28px;
+        padding-top: 9%;
+        padding-right: 20%;
+    }
+    .header-img5 {
+        width: 22%;
+        height: 170px;
+        padding-top: 8.5%;
+    }
+    .header-h2 {
+        padding-left: 23%;
+        width: 56%;
+        font-size: 13px;
+    }
+    .header-p {
+        font-size: 12px;
+    }
+    .container {
+        padding-top: 100px;
+    }
+    .container-mid {
+        padding-top: 20px;
+        height: 30vh;
+    }
+    .container-img-mid-l {
+        width: 95%;
+    }
+    .container-text-mid-l h1 {
+        font-size: 13px;
+    }
+    .container-text-mid-l h3 {
+        font-size: 10px;
+    }
+    .container-text-mid-l-hr {
+        width: 60%;
+        height: 3.5px
+    }
+    .container-mid-r {
+        height: 267px;
+        width: 60%;
+        padding-right: 18px;
+    }
+    .container-img-mid-r {
+        height: 199px;
+    }
+    .container-img-mid-r img {
+        height: 199px;
+    }
+    .container-text-mid-r h1 {
+        font-size: 13px;
+        width: 65%;
+        padding-top: 7px;
+    }
+    .container-text-mid-r h3 {
+        font-size: 10px;
+    }
+    .container-text-mid-r-hr {
+        width: 60%;
+        height: 3.5px
+    }
+}
+@media screen and (min-width: 912px){}
