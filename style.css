@@ -7,6 +7,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+
 }
 
 header{
@@ -213,6 +216,7 @@ width: 80%;
     text-decoration: none;
     padding-top: 8px;
     padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-text-mid-l-hr{
@@ -251,6 +255,7 @@ width: 80%;
     text-decoration: none;
     padding-top: 8px;
     padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-text-mid-r-hr{
@@ -699,5 +704,107 @@ footer{
         width: 49%;
         padding-right: 0px;
         padding-left: 13%;
+    }
+}
+@media screen and (min-width: 1280px){
+    header {
+        height: 16vh;
+    }
+    .header-img1 {
+        width: 11.6%;
+        height: 17%;
+    }
+    .header-img2 {
+        height: 51px;
+        width: 15%;
+    }
+    .header-img3 {
+        padding-top: 11%;
+        height: 66px;
+        padding-left: 20%;
+        width: 3%;
+    }
+    .header-img5 {
+        height: 147px;
+        padding-top: 3.5%;
+        width: 10%;
+        padding-left: 10%;
+    }
+    .header-img4 {
+        width: 15%;
+        height: 20px;
+        padding-top: 4%;
+        padding-left: 9%;
+    }
+    .header-img6 {
+        width: 8%;
+        height: 24px;
+        padding-top: 2%;
+    }
+    .header-h2 {
+        width: 28%;
+        font-size: 12px;
+        padding-left: 61%;
+    }
+    .header-p {
+        font-size: 10px;
+    }
+    .container {
+        padding-top: 130px;
+    }
+    .container-img-top img {
+        width: 84%;
+        height: 300px;
+    }
+    .container-text-top {
+        padding-left: 120px;
+    }
+    .container-text-top h1 {
+        font-size: 17px;
+    }
+    .container-text-top p {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .container-text-top h3 {
+        font-size: 10px;
+        padding-top: 13px;
+    }
+    .container-text-top-hr {
+        width: 28%;
+    }
+    .container-mid-l {
+        padding-left: 14%;
+    }
+    .container-img-mid-l {
+        width: 100%;
+    }
+    .container-text-mid-l h1 {
+        font-size: 14px;
+    }
+    .container-text-mid-l h3 {
+        font-size: 12px;
+    }
+    .container-text-mid-l-hr {
+        height: 4px;
+    }
+    .container-mid-r {
+        height: 306px;
+    }
+    .container-img-mid-r {
+        height: 235px;
+    }
+    .container-img-mid-r img {
+        width: 51%;
+        height: 236px;
+    }
+    .container-text-mid-r h1 {
+        width: 54%;
+    }
+    .container-text-mid-r-hr {
+        width: 40%;
+    }
+    footer {
+        height: 16vh;
     }
 }
